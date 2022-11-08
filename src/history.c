@@ -4,7 +4,7 @@
 void history_command()
 {
 	FILE *f; 
-	f=fopen("/home/shagunuppal/Desktop/OS_Assignment0/history_data.txt","r");
+	f=fopen("/home/likhitha/Desktop/LinuxProject/history_data.txt","r");
 	size_t length = 255;
 	char *line=malloc(sizeof(char)*length);
 	int pt;
@@ -22,7 +22,7 @@ void history_command()
 	}
 
 	FILE *f1; 
-	f1=fopen("/home/shagunuppal/Desktop/OS_Assignment0/standby.txt","r");
+	f1=fopen("/home/likhitha/Desktop/LinuxProject/standby.txt","r");
 	size_t len = 255;
 	char *line1=malloc(sizeof(char)*len);
 	int pt1;
@@ -42,7 +42,7 @@ void history_command()
 void history_c()
 {
 	FILE *f1; 
-	f1=fopen("/home/shagunuppal/Desktop/OS_Assignment0/standby.txt","r");
+	f1=fopen("/home/likhitha/Desktop/LinuxProject/standby.txt","r");
 	size_t len = 255;
 	char *line1=malloc(sizeof(char)*len);
 	int pt1;
