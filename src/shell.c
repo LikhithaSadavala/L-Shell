@@ -80,7 +80,7 @@ int main(int argc, char const *argv[])
 			*pointer='\0';
 		}
 
-		f_in = fopen ("/home/shagunuppal/Desktop/OS_Assignment0/standby.txt","a");
+		f_in = fopen ("/home/likhitha/Desktop/LinuxProject/standby.txt","a");
        	fprintf(f_in, instruction);
        	fprintf(f_in,"\n");
   		fclose (f_in);
@@ -223,7 +223,7 @@ int main(int argc, char const *argv[])
 				save();
 				FILE *fc;
 				flag=1;
-				fc=fopen("/home/shagunuppal/Desktop/OS_Assignment0/standby.txt","a");
+				fc=fopen("/home/likhitha/Desktop/LinuxProject/standby.txt","a");
 			}
 			else if(array[1]!=NULL && strcmp(array[1],"-a")==0)
 			{
@@ -244,23 +244,23 @@ int main(int argc, char const *argv[])
 			{
 				if(strcmp(array[0],"date")==0)
 				{
-					execv("/home/shagunuppal/Desktop/OS_Assignment0/date",array);
+					execv("/home/likhitha/Desktop/LinuxProject/date",array);
 				}
 				else if(strcmp(array[0],"mkdir")==0)
 				{
-					execv("/home/shagunuppal/Desktop/OS_Assignment0/mkdir",array);
+					execv("/home/likhitha/Desktop/LinuxProject/mkdir",array);
 				}
 				else if(strcmp(array[0],"rm")==0)
 				{
-					execv("/home/shagunuppal/Desktop/OS_Assignment0/rm",array);
+					execv("/home/likhitha/Desktop/LinuxProject/rm",array);
 				}
 				else if(strcmp(array[0],"ls")==0)
 				{
-					execv("/home/shagunuppal/Desktop/OS_Assignment0/ls",array);
+					execv("/home/likhitha/Desktop/LinuxProject/ls",array);
 				}
 				else if(strcmp(array[0],"cat")==0)
 				{
-					execv("/home/shagunuppal/Desktop/OS_Assignment0/cat",array);
+					execv("/home/likhitha/Desktop/LinuxProject/cat",array);
 				}
 				else
 				{
